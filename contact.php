@@ -3,9 +3,8 @@ require_once("includes/settings.php");
 
 $page_name = "Contact";
 $page_description = "";
-$page_keywords = "";
 ?>
-<!DOCTYPE HTML>
+<!doctype html>
 <html lang="en">
 <head>
 	<?php require_once("includes/meta.php"); ?>
