@@ -1,0 +1,18 @@
+
+# TEAM
+
+	Design & Development: Lick My Design 
+	Twitter: @lickmydesign
+
+# THANKS
+
+	Twitter Bootstrap
+	HTML5 Boilerplate
+
+# TECHNOLOGY COLOPHON
+
+	CSS3, HTML5, PHP
+
+# SITE
+
+	Doctype: HTML5
