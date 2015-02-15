@@ -1,6 +1,6 @@
 <meta charset="utf-8" />
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
-<title>Site Name | <?php echo $page_name ?></title>
+<title><?php echo $settings['site_name']; ?> | <?php echo $page_name ?></title>
 <meta title="description" content="<?php echo $page_description; ?>" />
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="css/bootstrap.min.css" />

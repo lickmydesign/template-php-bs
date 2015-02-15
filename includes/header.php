@@ -22,7 +22,7 @@ if ($page_name == "Home") {
 	<div class="row">
 		<div class="col-md-3">
 			<div id="logo">
-				<img src="http://placehold.it/260x100&text=Logo Here" alt="<?php echo $site_name; ?>" width="" height="" />
+				<a href="index.php"><img src="http://placehold.it/260x100&text=Logo Here" alt="<?php echo $settings['site_name']; ?> logo" width="" height="" /></a>
 			</div>
 		</div>
 
