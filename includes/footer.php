@@ -8,11 +8,7 @@
 
 		<div class="col-md-6">
 			<ul class="nav nav-pills">
-				<li<?php echo $link1_active; ?>><a href="index.php">Home</a></li>
-				<li<?php echo $link2_active; ?>><a href="about.php">About</a></li>
-				<li<?php echo $link3_active; ?>><a href="page3.php">Page 3</a></li>
-				<li<?php echo $link4_active; ?>><a href="page4.php">Page 4</a></li>
-				<li<?php echo $link5_active; ?>><a href="contact.php">Contact</a></li>
+				<?php echo output_menu($settings['navigation']); ?>
 			</ul>
 		</div>
 
