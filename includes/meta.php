@@ -6,5 +6,5 @@
 <link rel="stylesheet" href="css/bootstrap.min.css" />
 <link rel="stylesheet" href="css/bootstrap-theme.min.css" />
 <link rel="stylesheet" href="css/site.css" />
-<script src="js/jquery-2.1.3.min.js"></script>
+<script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
