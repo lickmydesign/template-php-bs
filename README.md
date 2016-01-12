@@ -1,2 +1,2 @@
 # template-php-bs
-A starter php site template including jQuery and Bootstrap.
+A starter php site template including jQuery, Bootstrap and Font Awesome.

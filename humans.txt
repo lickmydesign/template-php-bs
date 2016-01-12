@@ -8,6 +8,7 @@
 
 	Twitter Bootstrap
 	HTML5 Boilerplate
+	Font Awesome
 
 # TECHNOLOGY COLOPHON
 
