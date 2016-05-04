@@ -10,6 +10,7 @@ $settings = array(
 	'contact_email' => 'info@domain.co.uk',
 	'address' => 'Address line 1, Address line 2, Town, County, Postcode',
 	'address_formatted' => 'Address line 1,<br /> Address line 2,<br /> Town, County,<br /> Postcode',
+	'google_analytics' => 'UA-XXXXX-X',
 	'opening_times' => 'Mon - Fri: 09:00 - 17:00',
 );
 
