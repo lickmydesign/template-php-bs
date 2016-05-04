@@ -12,6 +12,8 @@ $settings = array(
 	'address_formatted' => 'Address line 1,<br /> Address line 2,<br /> Town, County,<br /> Postcode',
 	'google_analytics' => 'UA-XXXXX-X',
 	'opening_times' => 'Mon - Fri: 09:00 - 17:00',
+	'facebook_url' => 'https://www.facebook.com/',
+	'twitter_url' => 'https://www.twitter.com/',
 );
 
 function base_url($url = null) {

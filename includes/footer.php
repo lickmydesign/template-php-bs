@@ -11,6 +11,10 @@
 				<?php echo output_menu($settings['navigation']); ?>
 			</ul>
 			<p><?php echo $settings['opening_times']; ?></p>
+			<p>
+				<a href="<?=$settings['facebook_url']?>" target="_blank" title="Visit our Facebook Page"><span class="fa fa-facebook-f"></span>
+				<a href="<?=$settings['twitter_url']?>" target="_blank" title="Visit us on Twitter"><span class="fa fa-twitter"></span>
+			</p>
 		</div>
 
 	</div> <!-- of .row -->
