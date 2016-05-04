@@ -21,9 +21,9 @@ $page_description = "";
 
 				<p>Virtus causa, illum uxor tincidunt ut demoveo abdo, facilisis nullus. Ex acsi nimis iriure natu sino consequat nisl, at obruo occuro, et.</p>
 
-				<p>Praesent iriure nobis capio nisl lucidus indoles odio. Dignissim in olim meus, rusticus capio lobortis feugiat ideo in. Ut odio ulciscor facilisis consequat quibus qui iriure ex. Et, haero pertineo abigo ex quidem, augue minim euismod tation ut vel ventosus, olim. Nibh genitus inhibeo camur erat iusto consequat ymo dolore esca luptatum decet odio.</p>
+				<p>Opening Times: <?php echo $settings['opening_times']; ?></p>
 			</div> <!-- of .content1 -->
-			
+
 			<div class="col-md-4 content2">
 				<h2>Heading 2 Title Here...</h2>
 

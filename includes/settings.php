@@ -3,11 +3,14 @@
 
 $settings = array(
 	'site_name' => 'Site Name',
+	//'base_url' => '',
 	'base_url' => '/template-php-bs',
 	'navigation' => array(),
 	'tel_no' => '01793 123456',
 	'contact_email' => 'info@domain.co.uk',
-	'address' => 'Address line 1, Address line 2, Town, County, Postcode'
+	'address' => 'Address line 1, Address line 2, Town, County, Postcode',
+	'address_formatted' => 'Address line 1,<br /> Address line 2,<br /> Town, County,<br /> Postcode',
+	'opening_times' => 'Mon - Fri: 09:00 - 17:00',
 );
 
 function base_url($url = null) {
