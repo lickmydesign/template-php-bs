@@ -1,6 +1,7 @@
 // less vars ---
 $link-colour: red;
 $link-colour-darker: darken(red, 60%);
+$lighter-grey: #efefef;
 
 body {
 	background-color: #efefef;
@@ -63,7 +64,18 @@ ul.nav {
 
 //Page specific styles here --------------------------
 
+// testimonials ---------------------
 
+.balloon {
+	background-color: $lighter-grey;
+	font-style: italic;
+	padding: 1em;
+	}
+.testimonial-source {
+	margin-bottom: 1.5em;
+	text-align: center;
+	text-transform: uppercase;
+}
 
 // Footer styles ---------------------------------------
 

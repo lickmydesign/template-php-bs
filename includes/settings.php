@@ -14,6 +14,7 @@ $settings = array(
 	'opening_times' => 'Mon - Fri: 09:00 - 17:00',
 	'facebook_url' => 'https://www.facebook.com/',
 	'twitter_url' => 'https://www.twitter.com/',
+	'testimonials' => array()
 );
 
 function base_url($url = null) {
@@ -42,4 +43,41 @@ function output_menu($menu) {
 		}
 		echo "</li>";
 	}
+}
+
+//define testimonials
+$settings['testimonials'][0] = array(
+	'content' => "This is a test testimonial, stating how great the company / a product is... here's some more content just to pad it out a bit.",
+	'source' => 'John Smith, Swindon'
+);
+$settings['testimonials'][1] = array(
+	'content' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque pretium ultricies eros, sed ultrices nisi lacinia vel. Cras eu orci feugiat, tempor augue sit amet, ornare tellus. Proin odio ipsum, elementum pellentesque justo at, venenatis condimentum odio.",
+	'source' => "Bob Smith, Bristol"
+);
+$settings['testimonials'][2] = array(
+	'content' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisi mi, gravida non auctor in, laoreet non odio. Fusce viverra, tortor eu varius pretium, mauris leo tempor mauris, sit amet mattis dui ligula nec urna. Donec rutrum est vitae mauris luctus, non feugiat ante tristique.",
+	'source' => "John Snow, The North"
+);
+
+function output_testimonials($testimonials) {
+	foreach ($testimonials as $key => $item) {
+		if (is_array($item)) {
+			output_testimonials($item);
+		} else {
+			if ($key == 'content') {
+				echo '<p class="balloon">' . $item . '</p>';
+			} else {
+				echo '<p class="testimonial-source">&boxh; '.$item.' &boxh;</p>';
+			}
+		}
+	}
+}
+
+function getRandomTestimonial($settings) {
+	$arr = $settings['testimonials'];
+	$random_key = array_rand($arr, 1);
+	$content = $arr[$random_key]['content'];
+	$source = $arr[$random_key]['source'];
+	echo "<p class=\"balloon\">$content</p>";
+	echo "<p class=\"testimonial-source\">&boxh; $source &boxh;</p>";
 }
