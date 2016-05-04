@@ -35,7 +35,7 @@ function output_menu($menu) {
 		echo ($current_url == $item ? '<li class="active">' : '<li>');
 		if (is_array($item)) {
 			echo "<ul>";
-			print_list($item);
+			output_menu($item);
 			echo "</ul>";
 		} else {
 			echo "<a href='{$item}'>$key</a>";
