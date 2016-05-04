@@ -18,8 +18,8 @@ function base_url($url = null) {
 //define pages
 $settings['navigation']['Home'] = base_url('index.php');
 $settings['navigation']['About'] = base_url('about.php');
-$settings['navigation']['Page 3'] = base_url('page3.php');
-$settings['navigation']['Page 4'] = base_url('page4.php');
+$settings['navigation']['Services'] = base_url('services.php');
+$settings['navigation']['Testimonials'] = base_url('testimonials.php');
 $settings['navigation']['Contact Us'] = base_url('contact.php');
 //$settings['navigation']['Contact Us']['Terms'] = base_url('terms.php'); //multi-level not working
 
