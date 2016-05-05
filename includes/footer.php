@@ -2,7 +2,7 @@
 
 	<div class="row">
 		<div class="col-md-6">
-			<p>Tel: <?php echo $settings['tel_no']; ?> <span class="pipe">|</span> Email: <a href="mailto:<?php echo $settings['contact_email']; ?>?subject=Website%20Enquiry"><?php echo $settings['contact_email']; ?></a></p>
+			<p>Tel: <a href="tel:<?php echo $settings['tel_no']; ?>"><?php echo $settings['tel_no']; ?></a> <span class="pipe">|</span> Email: <a href="mailto:<?php echo $settings['contact_email']; ?>?subject=Website%20Enquiry"><?php echo $settings['contact_email']; ?></a></p>
 			<p><?php echo $settings['address_formatted']; ?></p>
 		</div>
 

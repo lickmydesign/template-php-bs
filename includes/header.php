@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
-				Tel: <?php echo $settings['tel_no']; ?> <span class="pipe">|</span> Email: <a href="mailto:<?php echo $settings['contact_email']; ?>?subject=Website%20Enquiry"><?php echo $settings['contact_email']; ?></a>
+				Tel: <a href="tel:<?php echo $settings['tel_no']; ?>"><?php echo $settings['tel_no']; ?></a> <span class="pipe">|</span> Email: <a href="mailto:<?php echo $settings['contact_email']; ?>?subject=Website%20Enquiry"><?php echo $settings['contact_email']; ?></a>
 			</div>
 			<div class="col-md-6 text-right social-links">
 				<a href="<?=$settings['facebook_url']?>" target="_blank" title="Visit our Facebook Page"><span class="fa fa-facebook-f"></span></a>&nbsp;
