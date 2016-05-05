@@ -3,7 +3,8 @@
 
 $settings = array(
 	'site_name' => 'Site Name',
-	//'base_url' => '',
+	'site_description' => 'Site description goes here, and is used in social sharing tags...',
+	//'base_url' => 'http://www.domain.co.uk',
 	'base_url' => '/template-php-bs',
 	'navigation' => array(),
 	'tel_no' => '01793 123456',
