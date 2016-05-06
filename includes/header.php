@@ -19,7 +19,7 @@
 	<div class="row">
 		<div class="col-md-4">
 			<div id="logo">
-				<a href="index.php"><img src="http://placehold.it/260x100&text=Logo Here" alt="<?php echo $settings['site_name']; ?> logo" width="" height="" /></a>
+				<a href="index.php"><img src="imgs/logo.png" class="img-responsive" alt="<?php echo $settings['site_name']; ?> logo" width="" height="" /></a>
 			</div>
 		</div>
 
