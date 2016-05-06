@@ -1,11 +1,12 @@
 // less vars ---
 $link-colour: red;
 $link-colour-darker: darken(red, 60%);
+$light-blue: #97b5df;
 $lighter-grey: #efefef;
 
 body {
 	background-color: #efefef;
-	padding: 1em 0;
+	padding: 0 0 1em 0;
 }
 
 h1 {
@@ -34,6 +35,11 @@ img {
 	width: 1170px;
 }*/
 
+.top-band {
+	background-color: $light-blue;
+	padding: 0.5em 0;
+}
+
 header {
 	background-color: #f5f5dc;
 }
@@ -46,8 +52,8 @@ header {
 	background-color: lightcoral;
 }
 
-ul.nav {
-	margin-top: 1em;
+header ul.nav {
+	margin-top: 3em;
 }
 
 .col-wrapper {
@@ -81,6 +87,10 @@ ul.nav {
 
 footer {
 	background-color: #faebd7;
+}
+
+footer ul.nav {
+	margin-top: 1em;
 }
 
 .epitaph {

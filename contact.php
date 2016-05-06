@@ -27,7 +27,7 @@ $page_description = "";
 			<div class="col-md-4 content2">
 				<h2>Heading 2 Title Here...</h2>
 
-				<img src="http://placehold.it/350x180" alt="Site Name" width="" height="" class="thumbnail" />
+				<img src="http://placehold.it/350x180" alt="Site Name" width="" height="" class="img-responsive thumbnail" />
 
 				<p>Here is some content in the second column...</p>
 
