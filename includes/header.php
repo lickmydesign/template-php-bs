@@ -33,6 +33,7 @@
 				<?php echo output_menu($settings['navigation']); ?>
 				</ul>
 			</div><!-- /.navbar-collapse -->
+	</div>
 
 		</nav>
 	</div>
