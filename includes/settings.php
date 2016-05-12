@@ -38,7 +38,7 @@ function output_menu($menu) {
 	foreach($menu as $key=>$item) {
 		echo ($current_url == $item ? '<li class="active">' : '<li>');
 		if (is_array($item)) {
-			echo "<ul>";
+			echo "<ul class=\"dropdown-menu\">";
 			output_menu($item);
 			echo "</ul>";
 		} else {
