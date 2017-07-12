@@ -3,7 +3,7 @@ require_once("includes/settings.php");
 
 $page_name = "Testimonials";
 $page_description = "";
-$keywords = "";
+$page_keywords = "";
 ?>
 
 <?php require_once("includes/meta.php"); ?>
