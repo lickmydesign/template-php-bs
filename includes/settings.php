@@ -8,6 +8,7 @@ $settings = array(
 	'base_url' => '/template-php-bs',
 	'navigation' => array(),
 	'tel_no' => '01793 123456',
+	'mob_no' => '07000 123456',
 	'contact_email' => 'info@domain.co.uk',
 	'address' => 'Address line 1, Address line 2, Town, County, Postcode',
 	'address_formatted' => 'Address line 1,<br /> Address line 2,<br /> Town, County,<br /> Postcode',
