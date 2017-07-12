@@ -14,12 +14,12 @@
 
 	<link rel="apple-touch-icon" href="apple-touch-icon.png">
 
-	<link rel="stylesheet" href="css/bootstrap.min.css" />
-	<link rel="stylesheet" href="css/bootstrap-theme.min.css" />
-	<link rel="stylesheet" href="css/font-awesome.min.css" />
-	<link rel="stylesheet" href="css/site.css?v=1" />
-	<script src="js/jquery-2.1.4.min.js"></script>
-	<script src="js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="<?php echo $settings['base_url']?>/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="<?php echo $settings['base_url']?>/css/bootstrap-theme.min.css" />
+	<link rel="stylesheet" href="<?php echo $settings['base_url']?>/css/font-awesome.min.css" />
+	<link rel="stylesheet" href="<?php echo $settings['base_url']?>/css/site.css?v=1" />
+	<script src="<?php echo $settings['base_url']?>/js/jquery-2.1.4.min.js"></script>
+	<script src="<?php echo $settings['base_url']?>/js/bootstrap.min.js"></script>
 
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:title" content="<?php echo $settings['site_name']; ?>" />
