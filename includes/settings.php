@@ -34,7 +34,7 @@ $settings['navigation']['Contact Us'] = base_url('contact.php');
 //$settings['navigation']['Contact Us']['Terms'] = base_url('terms.php'); //multi-level not working
 
 function output_menu($menu) {
-	$current_url = $_SERVER['PHP_SELF'];
+	$current_url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 	foreach($menu as $key=>$item) {
 		echo ($current_url == $item ? '<li class="active">' : '<li>');
 		if (is_array($item)) {
