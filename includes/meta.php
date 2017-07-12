@@ -5,6 +5,9 @@
 	<meta http-equiv="x-ua-compatible" content="ie=edge">
 	<title><?php echo $settings['site_name']; ?> | <?php echo $page_name ?></title>
 	<meta title="description" content="<?php echo $page_description; ?>" />
+	<?php if (isset($page_keywords)) { ?>
+	<meta title="keywords" content="<?php echo $page_keywords; ?>" />
+	<?php } ?>
 	<meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,maximum-scale=1,user-scalable=no" />
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="mobile-web-app-capable" content="yes" />
