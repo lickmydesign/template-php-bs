@@ -12,7 +12,7 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="mobile-web-app-capable" content="yes" />
 
-	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="<?php echo $settings['base_url']?>/apple-touch-icon.png">
 
 	<link rel="stylesheet" href="<?php echo $settings['base_url']?>/css/bootstrap.min.css" />
 	<link rel="stylesheet" href="<?php echo $settings['base_url']?>/css/bootstrap-theme.min.css" />
