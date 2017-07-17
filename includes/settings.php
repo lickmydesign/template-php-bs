@@ -1,6 +1,8 @@
 <?php
 //include("includes/connect.php");
 
+$GLOBALS['current_url'] = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
+
 $settings = array(
 	'site_name' => 'Site Name',
 	'site_description' => 'Site description goes here, and is used in social sharing tags...',
@@ -35,9 +37,8 @@ $settings['navigation']['Contact Us'] = base_url('contact.php');
 //$settings['navigation']['Contact Us']['Terms'] = base_url('terms.php'); //multi-level not working
 
 function output_menu($menu) {
-	$current_url = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 	foreach($menu as $key=>$item) {
-		echo ($current_url == $item ? '<li class="active">' : '<li>');
+		echo ($GLOBALS['current_url'] == $item ? '<li class="active">' : '<li>');
 		if (is_array($item)) {
 			echo "<ul class=\"dropdown-menu\">";
 			output_menu($item);
