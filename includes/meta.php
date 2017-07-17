@@ -22,13 +22,13 @@
 	<script src="<?php echo $settings['base_url']?>/js/bootstrap.min.js"></script>
 
 	<meta property="og:locale" content="en_GB" />
-	<meta property="og:title" content="<?php echo $settings['site_name']; ?>" />
+	<meta property="og:title" content="<?php echo $settings['site_name'] . " - " . $page_name; ?>" />
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="<?php echo $settings['base_url']?>/" />
-	<meta property="article:publisher" content="<?=$settings['facebook_url']?>" />
+	<meta property="og:url" content="<?php echo $GLOBALS['current_url']; ?>/" />
+	<meta property="article:publisher" content="<?php echo $settings['facebook_url']; ?>" />
 	<meta property="fb:app_id" content="" />
-	<meta property="article:author" content="<?=$settings['facebook_url']?>" />
-	<meta property="og:image" content="<?php echo $settings['base_url']?>/imgs/og_img.png"/>
+	<meta property="article:author" content="<?php echo $settings['facebook_url']; ?>" />
+	<meta property="og:image" content="<?php echo $settings['base_url']; ?>/imgs/og_img.png"/>
 	<meta property="og:site_name" content="<?php echo $settings['site_name']; ?>"/>
 	<meta property="og:description" content="<?php echo $settings['site_description']; ?>"/>
 
