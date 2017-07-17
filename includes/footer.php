@@ -14,10 +14,10 @@
 				</ul>
 				<p><?php echo $settings['opening_times']; ?></p>
 				<p>
-					<a href="<?=$settings['facebook_url']?>" target="_blank" title="Visit our Facebook Page"><span class="fa fa-facebook-f"></span>&nbsp;
-					<a href="<?=$settings['twitter_url']?>" target="_blank" title="Visit us on Twitter"><span class="fa fa-twitter"></span></a>&nbsp;
-					<a href="<?=$settings['linkedin_url']?>" target="_blank" title="Visit us on LinkedIn"><span class="fa fa-linkedin"></span></a>&nbsp;
-					<a href="<?=$settings['googleplus_url']?>" target="_blank" title="Visit us on Google Plus"><span class="fa fa-google-plus"></span></a>
+					<a href="<?php echo $settings['facebook_url']; ?>" target="_blank" title="Visit our Facebook Page"><span class="fa fa-facebook-f"></span>&nbsp;
+					<a href="<?php echo $settings['twitter_url']; ?>" target="_blank" title="Visit us on Twitter"><span class="fa fa-twitter"></span></a>&nbsp;
+					<a href="<?php echo $settings['linkedin_url']; ?>" target="_blank" title="Visit us on LinkedIn"><span class="fa fa-linkedin"></span></a>&nbsp;
+					<a href="<?php echo $settings['googleplus_url']; ?>" target="_blank" title="Visit us on Google Plus"><span class="fa fa-google-plus"></span></a>
 				</p>
 			</div>
 

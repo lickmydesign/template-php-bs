@@ -33,11 +33,11 @@
 	<meta property="og:description" content="<?php echo $settings['site_description']; ?>"/>
 
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:image" content="<?php echo $settings['base_url']?>/imgs/twitter_img.jpg" />
+	<meta name="twitter:image" content="<?php echo $settings['base_url']; ?>/imgs/twitter_img.jpg" />
 	<meta name="twitter:site" content="" />
 	<meta name="twitter:title" content="<?php echo $settings['site_name']; ?>" />
 	<meta name="twitter:description" content="<?php echo $settings['site_description']; ?>" />
-	<meta name="twitter:url" content="<?php echo $settings['base_url']?>/" />
+	<meta name="twitter:url" content="<?php echo $settings['base_url']; ?>/" />
 	<?php require_once("ga.php"); ?>
 </head>
 <body>
