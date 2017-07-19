@@ -38,7 +38,10 @@ $settings['navigation']['Contact Us'] = base_url('contact.php');
 
 function output_menu($menu) {
 	foreach($menu as $key=>$item) {
-		echo ($GLOBALS['current_url'] == $item ? '<li class="active">' : '<li>');
+		$page_name = str_replace('.php','',$item);
+		$page_name_in_url = strpos($GLOBALS['current_url'], $page_name) === False ? False : True;
+
+		echo ($GLOBALS['current_url'] == $item || $page_name_in_url) ? '<li class="active">' : '<li>';
 		if (is_array($item)) {
 			echo "<ul class=\"dropdown-menu\">";
 			output_menu($item);
