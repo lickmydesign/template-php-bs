@@ -24,18 +24,13 @@ $settings = array(
 	'testimonials' => array()
 );
 
-function base_url($url = null) {
-	global $settings;
-	return $settings['base_url'] . '/' . $url;
-}
-
 //define pages
-$settings['navigation']['Home'] = base_url('index.php');
-$settings['navigation']['About'] = base_url('about.php');
-$settings['navigation']['Services'] = base_url('services.php');
-$settings['navigation']['Testimonials'] = base_url('testimonials.php');
-$settings['navigation']['Contact Us'] = base_url('contact.php');
-//$settings['navigation']['Contact Us']['Terms'] = base_url('terms.php'); //multi-level not working
+$settings['navigation']['Home'] = site_url($settings, 'index.php');
+$settings['navigation']['About'] = site_url($settings, 'about.php');
+$settings['navigation']['Services'] = site_url($settings, 'services.php');
+$settings['navigation']['Testimonials'] = site_url($settings, 'testimonials.php');
+$settings['navigation']['Contact Us'] = site_url($settings, 'contact.php');
+//$settings['navigation']['Contact Us']['Terms'] = site_url($settings, 'terms.php'); //multi-level not working
 
 //define testimonials
 $settings['testimonials'][0] = array(
