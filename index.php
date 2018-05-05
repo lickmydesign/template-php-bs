@@ -3,7 +3,6 @@ require_once("includes/settings.php");
 
 $page_name = "Home";
 $page_description = "";
-$page_keywords = "";
 ?>
 
 <?php require_once("includes/meta.php"); ?>
