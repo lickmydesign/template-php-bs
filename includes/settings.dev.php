@@ -19,6 +19,7 @@ $settings = array(
 	'opening_times' => 'Mon - Fri: 09:00 - 17:00',
 	'facebook_url' => 'https://www.facebook.com/',
 	'twitter_url' => 'https://www.twitter.com/',
+	'twitter_account' => '',
 	'linkedin_url' => 'https://www.linkedin.com/',
 	'googleplus_url' => 'https://plus.google.com/',
 	'testimonials' => array()

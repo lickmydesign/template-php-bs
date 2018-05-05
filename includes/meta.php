@@ -31,7 +31,7 @@
 
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:image" content="<?php echo site_url($settings, "imgs/twitter_img.jpg"); ?>" />
-	<meta name="twitter:site" content="" />
+	<meta name="twitter:site" content="<?php echo $settings['twitter_account']; ?>" />
 	<meta name="twitter:title" content="<?php echo $settings['site_name']; ?>" />
 	<meta name="twitter:description" content="<?php echo $settings['site_description']; ?>" />
 	<?php require_once("ga.php"); ?>
