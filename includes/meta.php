@@ -9,28 +9,28 @@
 	<meta name="apple-mobile-web-app-capable" content="yes" />
 	<meta name="mobile-web-app-capable" content="yes" />
 
-	<link rel="apple-touch-icon" href="<?php echo $settings['base_url']?>/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="<?php echo site_url($settings, "apple-touch-icon.png"); ?>">
 
-	<link rel="stylesheet" href="<?php echo $settings['base_url']?>/css/bootstrap.min.css" />
-	<link rel="stylesheet" href="<?php echo $settings['base_url']?>/css/bootstrap-theme.min.css" />
-	<link rel="stylesheet" href="<?php echo $settings['base_url']?>/css/font-awesome.min.css" />
-	<link rel="stylesheet" href="<?php echo $settings['base_url']?>/css/site.css?v=1" />
-	<script src="<?php echo $settings['base_url']?>/js/jquery-2.1.4.min.js"></script>
-	<script src="<?php echo $settings['base_url']?>/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="<?php echo site_url($settings, "css/bootstrap.min.css"); ?>" />
+    <link rel="stylesheet" href="<?php echo site_url($settings, "css/bootstrap-theme.min.css"); ?>" />
+	<link rel="stylesheet" href="<?php echo site_url($settings, "css/font-awesome.min.css"); ?>" />
+	<link rel="stylesheet" href="<?php echo site_url($settings, "css/site.css?v=1"); ?>" />
+	<script src="<?php echo site_url($settings, "js/jquery-2.1.4.min.js"); ?>"></script>
+	<script src="<?php echo site_url($settings, "js/bootstrap.min.js"); ?>"></script>
 
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:title" content="<?php echo $settings['site_name'] . " - " . $page_name; ?>" />
 	<meta property="og:type" content="website"/>
-	<meta property="og:url" content="<?php echo $GLOBALS['current_url']; ?>/" />
+	<meta property="og:url" content="<?php echo current_page_url(); ?>/" />
 	<meta property="article:publisher" content="<?php echo $settings['facebook_url']; ?>" />
 	<meta property="fb:app_id" content="" />
 	<meta property="article:author" content="<?php echo $settings['facebook_url']; ?>" />
-	<meta property="og:image" content="<?php echo $settings['base_url']; ?>/imgs/og_img.png"/>
+	<meta property="og:image" content="<?php echo site_url($settings, "imgs/og_img.png"); ?>"/>
 	<meta property="og:site_name" content="<?php echo $settings['site_name']; ?>"/>
 	<meta property="og:description" content="<?php echo $settings['site_description']; ?>"/>
 
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:image" content="<?php echo $settings['base_url']; ?>/imgs/twitter_img.jpg" />
+	<meta name="twitter:image" content="<?php echo site_url($settings, "imgs/twitter_img.jpg"); ?>" />
 	<meta name="twitter:site" content="" />
 	<meta name="twitter:title" content="<?php echo $settings['site_name']; ?>" />
 	<meta name="twitter:description" content="<?php echo $settings['site_description']; ?>" />
