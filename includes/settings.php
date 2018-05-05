@@ -1,5 +1,6 @@
 <?php
 //include("includes/connect.php");
+include("includes/functions.php");
 
 $GLOBALS['current_url'] = "http://".$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
 
@@ -36,23 +37,6 @@ $settings['navigation']['Testimonials'] = base_url('testimonials.php');
 $settings['navigation']['Contact Us'] = base_url('contact.php');
 //$settings['navigation']['Contact Us']['Terms'] = base_url('terms.php'); //multi-level not working
 
-function output_menu($menu) {
-	foreach($menu as $key=>$item) {
-		$page_name = str_replace('.php','',$item);
-		$page_name_in_url = strpos($GLOBALS['current_url'], $page_name) === False ? False : True;
-
-		echo ($GLOBALS['current_url'] == $item || $page_name_in_url) ? '<li class="active">' : '<li>';
-		if (is_array($item)) {
-			echo "<ul class=\"dropdown-menu\">";
-			output_menu($item);
-			echo "</ul>";
-		} else {
-			echo "<a href='{$item}'>$key</a>";
-		}
-		echo "</li>";
-	}
-}
-
 //define testimonials
 $settings['testimonials'][0] = array(
 	'content' => "This is a test testimonial, stating how great the company / a product is... here's some more content just to pad it out a bit.",
@@ -66,26 +50,3 @@ $settings['testimonials'][2] = array(
 	'content' => "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nisi mi, gravida non auctor in, laoreet non odio. Fusce viverra, tortor eu varius pretium, mauris leo tempor mauris, sit amet mattis dui ligula nec urna. Donec rutrum est vitae mauris luctus, non feugiat ante tristique.",
 	'source' => "John Snow, The North"
 );
-
-function output_testimonials($testimonials) {
-	foreach ($testimonials as $key => $item) {
-		if (is_array($item)) {
-			output_testimonials($item);
-		} else {
-			if ($key == 'content') {
-				echo '<p class="balloon">' . $item . '</p>';
-			} else {
-				echo '<p class="testimonial-source">&boxh; '.$item.' &boxh;</p>';
-			}
-		}
-	}
-}
-
-function getRandomTestimonial($settings) {
-	$arr = $settings['testimonials'];
-	$random_key = array_rand($arr, 1);
-	$content = $arr[$random_key]['content'];
-	$source = $arr[$random_key]['source'];
-	echo "<p class=\"balloon\">$content</p>";
-	echo "<p class=\"testimonial-source\">&boxh; $source &boxh;</p>";
-}
