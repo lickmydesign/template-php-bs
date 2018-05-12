@@ -11,12 +11,10 @@
 
 	<link rel="apple-touch-icon" href="<?php echo site_url($settings, "apple-touch-icon.png"); ?>">
 
-    <link rel="stylesheet" href="<?php echo site_url($settings, "css/bootstrap.min.css"); ?>" />
-    <link rel="stylesheet" href="<?php echo site_url($settings, "css/bootstrap-theme.min.css"); ?>" />
+	<link rel="stylesheet" href="<?php echo site_url($settings, "css/bootstrap.min.css"); ?>" />
+	<link rel="stylesheet" href="<?php echo site_url($settings, "css/bootstrap-theme.min.css"); ?>" />
 	<link rel="stylesheet" href="<?php echo site_url($settings, "css/font-awesome.min.css"); ?>" />
 	<link rel="stylesheet" href="<?php echo site_url($settings, "css/site.css?v=1"); ?>" />
-	<script src="<?php echo site_url($settings, "js/jquery-2.1.4.min.js"); ?>"></script>
-	<script src="<?php echo site_url($settings, "js/bootstrap.min.js"); ?>"></script>
 
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:title" content="<?php echo $settings['site_name'] . " - " . $page_name; ?>" />
@@ -34,7 +32,6 @@
 	<meta name="twitter:site" content="<?php echo $settings['twitter_account']; ?>" />
 	<meta name="twitter:title" content="<?php echo $settings['site_name']; ?>" />
 	<meta name="twitter:description" content="<?php echo $settings['site_description']; ?>" />
-	<?php require_once("ga.php"); ?>
 </head>
 <body>
 	<!--[if lt IE 8]>

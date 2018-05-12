@@ -46,6 +46,6 @@ $page_description = "";
 	<?php include("includes/footer.php"); ?>
 
 </div> <!-- of #wrapper -->
-
+    <?php include("includes/footer_scripts.php"); ?>
 </body>
 </html>
