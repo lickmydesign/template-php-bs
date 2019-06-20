@@ -11,8 +11,7 @@
 
 	<link rel="apple-touch-icon" href="<?php echo site_url($settings, "apple-touch-icon.png"); ?>">
 
-	<link rel="stylesheet" href="<?php echo site_url($settings, "assets/css/bootstrap.min.css"); ?>" />
-	<link rel="stylesheet" href="<?php echo site_url($settings, "assets/css/bootstrap-theme.min.css"); ?>" />
+	<link rel="stylesheet" href="<?php echo site_url($settings, "assets/bootstrap/css/bootstrap.min.css"); ?>" />
 	<link rel="stylesheet" href="<?php echo site_url($settings, "assets/fontawesome/css/all.min.css"); ?>" />
 	<link rel="stylesheet" href="<?php echo site_url($settings, "assets/css/site.css?v=1"); ?>" />
 
