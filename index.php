@@ -26,6 +26,8 @@ $page_description = "";
 				<p>Virtus causa, illum uxor tincidunt ut demoveo abdo, facilisis nullus. Ex acsi nimis iriure natu sino consequat nisl, at obruo occuro, et.</p>
 
 				<p>Praesent iriure nobis capio nisl lucidus indoles odio. Dignissim in olim meus, rusticus capio lobortis feugiat ideo in. Ut odio ulciscor facilisis consequat quibus qui iriure ex. Et, haero pertineo abigo ex quidem, augue minim euismod tation ut vel ventosus, olim. Nibh genitus inhibeo camur erat iusto consequat ymo dolore esca luptatum decet odio.</p>
+
+                <p><a href="services.php" class="btn btn-primary">Other Services <i class="fas fa-arrow-alt-from-left"></i></a></p>
 			</div> <!-- of .content1 -->
 
 			<div class="col-md-4 content2">
@@ -34,6 +36,8 @@ $page_description = "";
 				<img src="http://placehold.it/350x180" alt="Site Name" width="" height="" class="img-responsive thumbnail" />
 
 				<p>Here is some content in the second column...</p>
+
+                <p><a href="about.php" class="btn btn-primary">Find Out More...</a></p>
 
 				<h3>Heading 3 here...</h3>
 
