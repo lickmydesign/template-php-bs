@@ -11,10 +11,10 @@
 
 	<link rel="apple-touch-icon" href="<?php echo site_url($settings, "apple-touch-icon.png"); ?>">
 
-	<link rel="stylesheet" href="<?php echo site_url($settings, "css/bootstrap.min.css"); ?>" />
-	<link rel="stylesheet" href="<?php echo site_url($settings, "css/bootstrap-theme.min.css"); ?>" />
-	<link rel="stylesheet" href="<?php echo site_url($settings, "css/font-awesome.min.css"); ?>" />
-	<link rel="stylesheet" href="<?php echo site_url($settings, "css/site.css?v=1"); ?>" />
+	<link rel="stylesheet" href="<?php echo site_url($settings, "assets/css/bootstrap.min.css"); ?>" />
+	<link rel="stylesheet" href="<?php echo site_url($settings, "assets/css/bootstrap-theme.min.css"); ?>" />
+	<link rel="stylesheet" href="<?php echo site_url($settings, "assets/fontawesome/css/all.min.css"); ?>" />
+	<link rel="stylesheet" href="<?php echo site_url($settings, "assets/css/site.css?v=1"); ?>" />
 
 	<meta property="og:locale" content="en_GB" />
 	<meta property="og:title" content="<?php echo $settings['site_name'] . " - " . $page_name; ?>" />
@@ -23,12 +23,12 @@
 	<meta property="article:publisher" content="<?php echo $settings['facebook_url']; ?>" />
 	<meta property="fb:app_id" content="" />
 	<meta property="article:author" content="<?php echo $settings['facebook_url']; ?>" />
-	<meta property="og:image" content="<?php echo site_url($settings, "imgs/og_img.png"); ?>"/>
+	<meta property="og:image" content="<?php echo site_url($settings, "assets/imgs/og_img.png"); ?>"/>
 	<meta property="og:site_name" content="<?php echo $settings['site_name']; ?>"/>
 	<meta property="og:description" content="<?php echo $settings['site_description']; ?>"/>
 
 	<meta name="twitter:card" content="summary" />
-	<meta name="twitter:image" content="<?php echo site_url($settings, "imgs/twitter_img.jpg"); ?>" />
+	<meta name="twitter:image" content="<?php echo site_url($settings, "assets/imgs/twitter_img.jpg"); ?>" />
 	<meta name="twitter:site" content="<?php echo $settings['twitter_account']; ?>" />
 	<meta name="twitter:title" content="<?php echo $settings['site_name']; ?>" />
 	<meta name="twitter:description" content="<?php echo $settings['site_description']; ?>" />
